@@ -9,6 +9,8 @@
 
     <title>Book Haven Bookstore</title>
 
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -29,6 +31,8 @@
 
             <a href="orders.html">Orders</a>
 
+            <a href="gallery.html">🛒 Cart</a>
+
         </nav>
 
     </header>
@@ -46,6 +50,11 @@
 
             <button>View Cart</button>
 
+            <button id="clear-cart-button">Clear Cart</button>
+
+            <button id="process-order-button">Process Order</button>
+
+
             <table>
 
                 <tr>
@@ -54,21 +63,21 @@
                         <img src="images/book1.png" alt="Brie Mine 4Ever book cover">
                         <h3>Brie Mine 4Ever</h3>
                         <p>$14.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                     <td>
                         <img src="images/book2.png" alt="Glory Riders book cover">
                         <h3>Glory Riders</h3>
                         <p>$16.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                     <td>
                         <img src="images/book3.png" alt="Sorcerer's Shadowed Chronicles book cover">
                         <h3>Sorcerer's Shadowed Chronicles</h3>
                         <p>$19.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                 </tr>
@@ -79,21 +88,21 @@
                         <img src="images/magazine1.png" alt="Ball magazine cover">
                         <h3>Ball Magazine</h3>
                         <p>$8.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                     <td>
                         <img src="images/magazine2.png" alt="Travel magazine cover">
                         <h3>Travel Magazine</h3>
                         <p>$9.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                     <td>
                         <img src="images/magazine3.png" alt="Eat magazine cover">
                         <h3>Eat Magazine</h3>
                         <p>$9.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                 </tr>
@@ -104,21 +113,21 @@
                         <img src="images/totebag.png" alt="Book Haven tote bag">
                         <h3>Reading Tote Bag</h3>
                         <p>$18.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                     <td>
                         <img src="images/notebook.png" alt="Book Haven notebook">
                         <h3>Reading Journal</h3>
                         <p>$12.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                     <td>
                         <img src="images/stickers.png" alt="Book Haven reading stickers">
                         <h3>Book Stickers</h3>
                         <p>$5.99</p>
-                        <button>Add to Cart</button>
+                        <button class="add-cart-button">Add to Cart</button>
                     </td>
     
                 </tr>
@@ -143,8 +152,11 @@
 
         <p>Book Haven Bookstore • EST. 2026</p>
 
-        
-    </footer>
+        <button class="subscribe-button">Subscribe</button>
+
+     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 

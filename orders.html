@@ -9,6 +9,8 @@
 
     <title>Book Haven Bookstore</title>
 
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -48,7 +50,7 @@
     
         <section>
     
-            <form>
+            <form id="contact-form">
     
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
@@ -62,7 +64,9 @@
                 <label for="details">Details:</label><br>
                 <textarea id="details" name="details" required></textarea><br><br>
     
-                <button type="submit">Submit Request</button>
+                <button id="contact-submit-button" type="submit">
+                    Submit Request
+                </button>
     
             </form>
     
@@ -82,12 +86,18 @@
 
             <a href="orders.html">Orders</a>
 
+            <a href="gallery.html">🛒 Cart</a>
+
+
         </nav>
 
         <p>Book Haven Bookstore • EST. 2026</p>
 
-        
-    </footer>
+        <button class="subscribe-button">Subscribe</button>
+
+     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
